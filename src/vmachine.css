@@ -48,7 +48,7 @@ div#mainBanner{
     top:0;
     left:0;
     z-index:10;
-    background-color: #2c577f;
+    background-color: #1242BD;
     background-size: cover;
     background-repeat:no-repeat;
 }
@@ -182,7 +182,7 @@ div.panel.ui-resizable{
 }
 div#mssArea div.panel div.panelBanner,
 .viewerHandle{
-    background:#2c577f;
+    background:#1242BD;
     border: 1px solid white;
     ;
 }

@@ -4,14 +4,19 @@
     * @license vmachine.css for VM 5.0
     * Updated: Aug 10 2015 by roman bleier
     * Adds CSS styling to VM 5.0
-    
     **/
-    
+
+@font-face {
+    font-family: Alphabetum;
+    src: url('/includes/ALPHA-test.otf');
+}
+
 body{
     width:100%;
     margin:0;
     padding:0;
     font-size:12px;
+    font-size: 1vw;
     width:100%;
     min-width:770px;
     background-color:#fff;
@@ -48,7 +53,7 @@ div#mainBanner{
     top:0;
     left:0;
     z-index:10;
-    background-color: #1242BD;
+    background-color: #2237a0;
     background-size: cover;
     background-repeat:no-repeat;
 }
@@ -182,7 +187,7 @@ div.panel.ui-resizable{
 }
 div#mssArea div.panel div.panelBanner,
 .viewerHandle{
-    background:#1242BD;
+    background:#2237a0;
     border: 1px solid white;
     ;
 }
@@ -225,6 +230,7 @@ div#mssArea div.panel div.mssContent{
     margin:10px;
     padding:0;
     line-height:25px;
+    font-family: Alphabetum;
 }
 
 div#mssArea div.panel div.mssContent img.imgLink{

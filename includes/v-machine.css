@@ -1,5 +1,5 @@
 body {
-	background: #FFFFFF;
+	background: #fff;
 	color: #000000;
 	font-family: verdana, 'bitstream vera sans', arial, helvetica, sans-serif;
 	font-size: 0.75em;
@@ -44,7 +44,7 @@ a:hover {
    z-index: 1;
 }
 #header .blue {
-   background: #6699cc;
+   background: #8b1f1f;
    left: 0;
    top: 0;
 }

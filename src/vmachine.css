@@ -79,7 +79,7 @@ div#headline{
     padding:2em;
     position: absolute;
     top: 0;
-    left: 37%
+    left: 39%
     }
 div#mainBanner div#headline h1{
     margin:0;
@@ -112,7 +112,7 @@ nav#mainControls button img{
     border:1px solid #fff;
     margin:0;
     padding:0;
-    z-index:10;
+    z-index:0;1
 }
 #mainControls > ul > li ul.dropdown li{
     display:block;
@@ -125,7 +125,7 @@ nav#mainControls button img{
 }
 #mainControls > ul > li ul li:hover{
     width:auto;
-    font-weight:800;
+    /*font-weight:800;*/
 }
 div.listText{
     display:table;
@@ -507,20 +507,18 @@ span.viewerHandleLt{
 .topMenuButton{
     font-family: "Segoe UI";
     font-weight: 300;
-    display:block;
+    display: block;
     background-color:#2c577f;
-    font-size: 1.2em; 
-    margin:0;
-    border-top: 1.5px solid #cecece;
-    border-bottom: 1.5px solid #cecece;
-    border-left: 1px solid #989898;
-    border-right: 1px solid #989898;
+    font-size: 1.2em;
+    margin: 0;
+    border: 2px groove white; /*changed from 1px*/
+    border-radius: 5px;
     color:#fff;
     cursor:pointer;
 }
 
 .topMenuButton:hover{
-    background-color: #989a9c;
+    background: radial-gradient(farthest-corner at 5px 5px ,#9aa0a5  40%, #4589C7 100%); /*changed to gradient*/
 }
 
 .noDisplay{
@@ -529,6 +527,7 @@ span.viewerHandleLt{
 .notVisible{
     visibility:hidden;
 }
+
 
 /*img menuicon*/
 #mainControls img.menuicon{
@@ -557,15 +556,14 @@ button{
 }
 
 .buttonPressed{
-    background-color: gray;
-    border-color: #2c577f;
+    background: radial-gradient(farthest-corner at 5px 5px , #4589C7 25%,  #9aa0a5 100%);
 }
 /*end OnOff button styling*/
 
 
 div.panel.highlight,
 .dropdown .highlight{
-    border: 1px solid red;
+    border: 1px solid grey;
 }
 
 
@@ -636,5 +634,3 @@ div.panel.highlight,
 }
 
 /*END responsive styles*/
-
-
